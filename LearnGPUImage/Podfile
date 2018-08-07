@@ -6,6 +6,7 @@ target 'LearnGPUImage' do
   # use_frameworks!
 
   # Pods for LearnGPUImage
+  pod 'GPUImage', :path => 'GPUImage/'
 
   target 'LearnGPUImageTests' do
     inherit! :search_paths
